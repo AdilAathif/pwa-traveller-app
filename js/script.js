@@ -27,7 +27,7 @@ $(document).ready(function () {
             let places_html = "";
             places.forEach((place) => {
                 places_html += `<div class="item">
-                <a href="/detail.html?id=${place.id}">
+                <a href="detail.html?id=${place.id}">
                     <div class="top">
                         <img src="${place.image}" alt="${place.name}" />
                     </div>
